@@ -1,0 +1,356 @@
+@import "reset.css";
+.wram {
+  width: 3.75rem;
+  margin: 0 auto;
+  background-color: #f2f2f2;
+}
+.header {
+  position: fixed;
+  top: 0;
+  width: 3.75rem;
+  left: 50%;
+  margin-left: -1.89rem;
+  height: 0.44rem;
+  line-height: 0.44rem;
+  z-index: 9999;
+  background-color: #ff6040;
+}
+.header h2 {
+  opacity: 0.8;
+  font-family: Helvetica;
+  font-size: 0.17rem;
+  color: #ffffff;
+  letter-spacing: 0;
+  text-align: center;
+}
+.nav {
+  width: 3.75rem;
+  height: 0.88rem;
+  margin-top: 0.44rem;
+  background-image: linear-gradient(180deg, #ff6040 0%, #ff8a80 100%);
+  box-shadow: 0 0.02rem 0.06rem 0 rgba(255, 149, 128, 0.5);
+}
+.nav .top {
+  display: flex;
+  text-align: center;
+}
+.nav .top .icon-dingwei1 {
+  font-size: 0.22rem;
+  color: #fff;
+  margin: 0 0.13rem;
+  line-height: 0.3rem;
+}
+.nav .top img {
+  width: 0.91rem;
+  height: 0.24rem;
+}
+.nav .top .search {
+  display: flex;
+  width: 1.7rem;
+  height: 0.32rem;
+  margin: 0 0.13rem;
+}
+.nav .top .search span {
+  position: relative;
+  display: inline-block;
+  width: 0.32rem;
+  height: 0.32rem;
+  background-color: #fff;
+}
+.nav .top .search span .icon-fangdajing {
+  font-size: 0.16rem;
+  color: #999;
+  position: absolute;
+  top: 0.09rem;
+  left: 0.08rem;
+}
+.nav .top .search input {
+  width: 1.38rem;
+  border: none;
+  background-color: #fff;
+}
+.nav .top .icon-dianpu {
+  font-size: 0.2rem;
+  color: #fff;
+  line-height: 0.3rem;
+}
+.nav .buttom {
+  position: relative;
+  margin-top: 0.3rem;
+  display: flex;
+  color: #fff;
+}
+.nav .buttom .tuijian {
+  display: inline-block;
+  width: 0.33rem;
+  height: 0.24rem;
+  margin-left: 0.1rem;
+  font-size: 0.16rem;
+}
+.nav .buttom .line {
+  display: inline-block;
+  position: absolute;
+  bottom: 0rem;
+  left: 0.17rem;
+  width: 0.2rem;
+  height: 0.03rem;
+  background-color: #fff;
+}
+.nav .buttom ul {
+  font-size: 0.14rem;
+}
+.nav .buttom ul li {
+  color: #fff3f2;
+  float: left;
+  margin-left: 0.26rem;
+}
+.nav .buttom .yinying {
+  display: inline-block;
+  width: 0.01rem;
+  height: 0.15rem;
+  border-left: 0.01rem solid #e41e1e;
+  margin: 0.04rem;
+  position: absolute;
+  top: -0.03rem;
+  right: 0.5rem;
+}
+.nav .buttom .fenlei {
+  font-size: 0.14rem;
+  right: 0.06rem;
+  top: 0;
+  position: absolute;
+}
+.nav .buttom .fenlei .icon-fenlei {
+  margin-right: 0.03rem;
+  font-size: 0.16rem;
+}
+.banner {
+  width: 3.75rem;
+  height: 3rem;
+  background-color: #fff;
+}
+.banner .ban1 {
+  width: 3.35rem;
+  height: 1.95rem;
+  margin: 0.1rem auto;
+  border-radius: 0.05rem;
+  overflow: hidden;
+  position: relative;
+  background-color: aqua;
+}
+.banner .ban1 li {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.banner .ban1 li img {
+  width: 3.35rem;
+  height: 1.95rem;
+}
+.banner .ban1 span {
+  display: inline-block;
+  width: 0.06rem;
+  height: 0.06rem;
+  position: absolute;
+  background: #fff;
+  border-radius: 0.03rem;
+  top: 1.6rem;
+}
+.banner .ban1 span:nth-child(1) {
+  left: 46%;
+}
+.banner .ban1 span:nth-child(2) {
+  left: 48%;
+}
+.banner .ban1 span:nth-child(3) {
+  left: 50%;
+}
+.banner .ban1 span:nth-child(4) {
+  left: 52%;
+}
+.banner .ban2 {
+  display: flex;
+  justify-content: space-around;
+}
+.banner .ban2 li {
+  width: 0.48rem;
+  height: 0.47rem;
+  text-align: center;
+}
+.banner .ban2 li img {
+  width: 0.32erem;
+  height: 0.32rem;
+}
+.banner .ban2 li p {
+  font-size: 0.1rem;
+  color: #333333;
+  margin-top: 0.08rem;
+  line-height: 0.1rem;
+}
+.shop {
+  height: 1.75rem;
+  margin: 0 auto;
+  width: 3.55rem;
+  display: flex;
+  justify-content: space-between;
+}
+.shop .tao {
+  position: relative;
+}
+.shop .tao .l-bg {
+  position: absolute;
+  height: 1.75rem;
+  width: 1.75rem;
+  background: url(../images/index/big.png) no-repeat;
+}
+.shop .tao .left {
+  position: absolute;
+  height: 1.75rem;
+  width: 1.75rem;
+  z-index: 99;
+}
+.shop .tao .left .l-top {
+  display: flex;
+  margin-top: 0.1rem;
+  justify-content: space-between;
+}
+.shop .tao .left .l-top h2 {
+  font-size: 16px;
+  color: #85a642;
+  line-height: 16px;
+  margin: 0 0.38rem 0 0.1rem;
+}
+.shop .tao .left .l-top h3 {
+  font-size: 10px;
+  color: #333333;
+  line-height: 16px;
+  text-align: right;
+}
+.shop .tao .left p {
+  font-size: 10px;
+  color: #b1cc7a;
+  line-height: 10px;
+  margin: 0.1rem 0 0.1rem 0.1rem;
+}
+.shop .tao .left .time span {
+  display: inline-block;
+  width: 0.16rem;
+  height: 0.18rem;
+  background-image: linear-gradient(180deg, #85a642 0%, #b1cc7a 100%);
+  border-radius: 1px;
+  margin-left: 0.1rem;
+  font-size: 14px;
+  line-height: 0.18rem;
+  color: #ffffff;
+  text-align: center;
+}
+.shop .right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.shop .right .top,
+.shop .right .bottom {
+  height: 0.85rem;
+  width: 1.65rem;
+  padding-left: 0.1rem;
+}
+.shop .right .top h1,
+.shop .right .bottom h1 {
+  font-size: 16px;
+  margin-top: 0.1rem;
+}
+.shop .right .top p,
+.shop .right .bottom p {
+  font-size: 10px;
+  margin: 0.1rem 0 0.07rem 0;
+}
+.shop .right .top span,
+.shop .right .bottom span {
+  display: inline-block;
+  width: 0.67rem;
+  height: 0.2rem;
+  line-height: 0.2rem;
+  font-size: 10px;
+  color: #ffffff;
+  border-radius: 2px 12px 12px 2px;
+}
+.shop .right .top span .icon-youjiantou,
+.shop .right .bottom span .icon-youjiantou {
+  font-size: 10px;
+}
+.shop .right .top h1 {
+  color: #ff6040;
+}
+.shop .right .top p {
+  color: #ff9580;
+}
+.shop .right .top span {
+  background-image: linear-gradient(180deg, #ff6040 0%, #ff9f80 100%);
+}
+.shop .right .bottom h1 {
+  color: #af40ff;
+}
+.shop .right .bottom p {
+  color: #ca80ff;
+}
+.shop .right .bottom span {
+  background-image: linear-gradient(180deg, #af40ff 0%, #f58cff 100%);
+}
+.myfootertop {
+  width: 3.55rem;
+  height: 1.5rem;
+  background-color: #fff;
+}
+.myfootertop .top {
+  display: flex;
+  justify-content: space-between;
+}
+.myfootertop .top .title1 {
+  font-size: 16px;
+  color: #ff6040;
+  margin: 0.1rem 0 0 0.46rem;
+  text-align: center;
+}
+.myfootertop .top .title2 {
+  font-size: 14px;
+  color: #999999;
+  margin: 0.11rem 0.58rem 0 0;
+  text-align: center;
+}
+.myfootertop .buttom ul {
+  display: flex;
+  justify-content: space-evenly;
+}
+.myfootertop .buttom ul li img {
+  width: 0.8rem;
+  height: 0.82rem;
+}
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  margin-left: -1.89rem;
+  background-color: #fff;
+  width: 3.78rem;
+  height: 0.5rem;
+  z-index: 99999;
+}
+.footer ul {
+  display: flex;
+  justify-content: space-evenly;
+}
+.footer ul li {
+  width: 0.4rem;
+  height: 0.4rem;
+  text-align: center;
+}
+.footer ul li img {
+  width: 0.27rem;
+  height: 0.25rem;
+}
+.footer ul li p {
+  font-size: 10px;
+  color: #ff6040;
+  line-height: 10px;
+}
